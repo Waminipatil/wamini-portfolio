@@ -47,7 +47,7 @@ function Navbar() {
 
           <a
             className={styles.nav_resume_btn}
-            href="/profile/WaminiResume.pdf"
+            href={process.env.PUBLIC_URL + "/profile/WaminiResume.pdf"}
             target="_blank"
           >
             Resume
@@ -78,7 +78,7 @@ function Navbar() {
           </a>
           <a
             className={styles.nav_link}
-            href="/profile/WaminiResume.pdf"
+            href={process.env.PUBLIC_URL + "/profile/WaminiResume.pdf"}
             target="_blank"
           >
             Resume
