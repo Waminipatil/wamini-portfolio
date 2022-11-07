@@ -52,12 +52,12 @@ const ProjectCard = () => {
       tech: "React",
     },
     {
-      img: "/projects/weatherApp.png",
+      img: "/projects/weatherApp.PNG",
       name: "Weather App",
       tech: "React",
     },
     {
-      img: "/projects/memoryMagic.png",
+      img: "/projects/memoryMagic.PNG",
       name: "Memory Game",
       tech: "React",
     },
