@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wamini-portfolio/static/css/main.b2a3427e.css",
-    "main.js": "/wamini-portfolio/static/js/main.bc1d8383.js",
+    "main.js": "/wamini-portfolio/static/js/main.d5083348.js",
     "static/js/787.1ed0c42c.chunk.js": "/wamini-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/slick.svg": "/wamini-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/wamini-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/wamini-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/wamini-portfolio/index.html",
     "main.b2a3427e.css.map": "/wamini-portfolio/static/css/main.b2a3427e.css.map",
-    "main.bc1d8383.js.map": "/wamini-portfolio/static/js/main.bc1d8383.js.map",
+    "main.d5083348.js.map": "/wamini-portfolio/static/js/main.d5083348.js.map",
     "787.1ed0c42c.chunk.js.map": "/wamini-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2a3427e.css",
-    "static/js/main.bc1d8383.js"
+    "static/js/main.d5083348.js"
   ]
 }
