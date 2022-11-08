@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { BsLink } from "react-icons/bs";
 import styles from "./ProjectCard.module.css";
 
 const ProjectCard = () => {
@@ -39,27 +40,32 @@ const ProjectCard = () => {
     {
       img: "/projects/mancini.png",
       name: "e-Commerce App.",
-      tech: "Adobe Magento",
+      tech: ["Adobe Magento", "jQuery", "HTML", "CSS"],
+      link: "https://www.sleepworld.com/",
     },
     {
       img: "/projects/genesis.png",
       name: "Healthcare App",
-      tech: "React",
+      tech: ["React", "Javascript", "Redux", "Formik", "Firebase"],
+      link: "#",
     },
     {
       img: "/projects/quizApp.png",
       name: "Quiz App",
-      tech: "React",
+      tech: ["React", "javaScript", "HTML", "CSS"],
+      link: "https://waminipatil.github.io/react-quiz-app/",
     },
     {
       img: "/projects/weatherApp.PNG",
       name: "Weather App",
-      tech: "React",
+      tech: ["React", "javaScript", "HTML", "CSS", "API"],
+      link: "https://waminipatil.github.io/weather-app/",
     },
     {
       img: "/projects/memoryMagic.PNG",
       name: "Memory Game",
-      tech: "React",
+      tech: ["React", "javaScript", "HTML", "CSS"],
+      link: "https://waminipatil.github.io/memory-game/",
     },
   ];
 
@@ -85,7 +91,14 @@ const ProjectCard = () => {
               <div className={styles.card_header}>
                 <h2>{card.name}</h2>
               </div>
-              <div className={styles.tech}>{card.tech}</div>
+              <div className={styles.techContainer}>
+                {card.tech.map((item) => (
+                  <div className={styles.tech}>{item}</div>
+                ))}
+              </div>
+              <a className={styles.link} href={card.link} target="_blank">
+                <BsLink />
+              </a>
             </div>
           </div>
         ))}

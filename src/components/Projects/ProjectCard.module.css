@@ -45,6 +45,11 @@
   opacity: 1;
 } */
 
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .tech {
   padding: 4px 8px;
   border: 1px solid var(--light-4);
@@ -55,27 +60,19 @@
   color: var(--cinder-light);
   width: fit-content;
   margin-top: 10px;
+  margin-right: 5px;
 }
 
-.card button {
-  display: inline-block;
-  background-color: #14c8eb;
-  color: #fff;
-  border: none;
-  padding: 1.5em 1.6em;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  transition: background-color 0.5s ease-out;
+.link {
+  display: flex;
+  margin-top: 10px;
+  font-size: 25px;
+  color: var(--cinder);
 }
 
 .text_info {
   padding: 1rem 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .controls {
