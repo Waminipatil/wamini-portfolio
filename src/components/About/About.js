@@ -12,7 +12,7 @@ const About = () => {
         <div className={styles.left}>
           <h3>Get to Know me!</h3>
           <p className={styles.desc}>
-            I'm Frontend Developer from Maharashtra, India. I'm a
+            I'm a Frontend Developer from Maharashtra, India. I'm a
             self-motivated, enthusiastic, goal-oriented individual with 2+ years
             of experience building and maintaing responsive websites. Learning
             is one of the strengths which I prefer to continue throughout and
