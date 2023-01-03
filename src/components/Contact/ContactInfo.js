@@ -12,7 +12,7 @@ function ContactInfo() {
         </div>
         <div className={styles["content"]}>
           <h4 className={styles["title"]}>Address</h4>
-          <p className={styles["body"]}>Mumbai,India</p>
+          <p className={styles["body"]}>Pune,India</p>
         </div>
       </div>
       <div className={styles["contact-info-item"]}>

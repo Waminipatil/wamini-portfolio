@@ -50,6 +50,12 @@ const ProjectCard = () => {
       link: "#",
     },
     {
+      img: "/projects/expenseTracker.png",
+      name: "Expense Tracker",
+      tech: ["React", "Context API", "javaScript", "HTML", "CSS"],
+      link: "https://waminipatil.github.io/expense-tracker/",
+    },
+    {
       img: "/projects/quizApp.png",
       name: "Quiz App",
       tech: ["React", "javaScript", "HTML", "CSS"],
